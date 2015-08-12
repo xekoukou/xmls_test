@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<root>
+<!-- xmls_external requires that the tag has the xmls_location tag that points to a git repository.-->
+	<xmls_tag tag="description" xmls_times="1" xmls_leaf="true" xmls_external = "true">  
+<!-- We can have mulitple sets of requirements, thus multiple xmls_properties tags -->
+        <xmls_properties> 
+		<xmls_property name="location" required="true" type="String or number">
+	</xmls_properties>
+	</xmls_tag>
+</root>
